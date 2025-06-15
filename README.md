@@ -36,3 +36,7 @@ This will serve your site and run the serverless function for fetching pages.
 ## Mark Chapters as Complete and Monitor Your Progress
 
 ## Resume Previous Progress from the Dashboard
+
+
+**License
+MIT License — free to use and modify.**

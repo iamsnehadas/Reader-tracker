@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Netlify build output
+.netlify/
+
+# Local env files
+.env
+.env.local
+
+# VS Code settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db

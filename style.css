@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f7fafd;
+}
+
+h1 {
+  color: #007acc;
+}
+
+.input-area,
+#resume-dashboard {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  background: #007acc;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+#resume-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.resume-tile {
+  background: #fff;
+  border: 2px solid #007acc;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.resume-tile:hover {
+  background: #007acc;
+  color: #fff;
+}
+
+#tracker-area {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+tr:hover {
+  background: #e2f0fb;
+}
+
+th {
+  background: #007acc;
+  color: white;
+}

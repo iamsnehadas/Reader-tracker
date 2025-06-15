@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reading Progress Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Reading Progress Tracker</h1>
+
+  <div class="input-area">
+    <label>Site Index URL:</label>
+    <input type="url" id="site-url" placeholder="https://www.example.com/" />
+    <label>Link Selector:</label>
+    <input type="text" id="link-selector" placeholder=".readers-list" />
+    <button id="track-btn">Track Progress</button>
+  </div>
+
+  <h2>OR use Manual Mode</h2>
+  <textarea id="manual-list" placeholder="One chapter per line"></textarea>
+  <button id="manual-btn">Create Checklist Manually</button>
+
+  <!-- Resume Dashboard -->
+  <div id="resume-dashboard">
+    <h2>Resume Previous Progress</h2>
+    <div id="resume-tiles"></div>
+  </div>
+
+  <!-- Checklist and Progress -->
+  <div id="tracker-area">
+    <h3 id="progress-text"></h3>
+    <table id="chapter-table">
+      <thead>
+        <tr><th>Done</th><th>Chapter</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
